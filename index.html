@@ -170,7 +170,7 @@
 
         <figure>
             <img src="images/fig_support2.png"
-                 alt="Data visualization supporting the proposition about the geographic concentration of abortion care in the U.S." />
+                alt="Horizontal bar chart showing the ten states with the largest shares of U.S. abortions in 2020, ranked from highest to lowest. California leads with 16.6%, followed by New York with 11.9%. The top five states, highlighted in dark blue, account for 48.7% of abortions, while the top ten account for 68.7%." />
             <figcaption>This visualization shows that just ten states accounted for 68.7% of all abortions occurring in the U.S. in 2020, with the top five alone accounting for nearly half. By highlighting the states with the largest shares of abortions, the chart supports the idea that abortion care is disproportionately concentrated in a small number of states.</figcaption>
         </figure>
 
@@ -210,16 +210,16 @@
 
         <figure>
             <img src="images/fig_oppose3.png"
-                 alt="Data visualization challenging the proposition by showing differences in geographic access despite similar clinic counts." />
+                alt="Scatterplot comparing each state's share of U.S. women aged 15–44 on the x-axis with its share of U.S. abortions on the y-axis in 2020. A dashed diagonal line represents equal shares, and a light blue shaded band highlights states within one percentage point of proportionality. Forty of 51 states fall within the band, while California is a notable exception." />
             <figcaption>This visualization compares each state's share of abortions occurring in the U.S. with its share of U.S. women aged 15–44. The close alignment of many states with the equal-share line suggests that the distribution of abortions largely reflects population distribution, challenging the idea that abortion care is disproportionately concentrated in a small number of states.</figcaption>
         </figure>
 
         <p><strong>Design Decisions and Rationale:</strong></p>
 
         <ul>
-            <li><strong>Selectively labeled states near the equal share line</strong>: This draws attention to the states that best fit rather than states that deviate from the idea of proportional representation.
+            <li><strong>Selectively labeled states near the equal-share line, along with California:</strong> This draws attention to states that support proportional representation while acknowledging California as a notable exception.
                 <ul>
-                    <li>Deception Score = -1.5: Highly deceptive because we deliberately direct attention toward states that support our opposing argument while downplaying those that challenge it. Although all states remain visible, the annotations emphasize the states we want viewers to notice.</li>
+                    <li>Deception Score = -1.5: Highly deceptive because we primarily direct attention toward states that support our opposing argument while downplaying other states that deviate from proportionality. Including California makes the visualization appear more balanced by acknowledging a major exception, without changing the overall emphasis on states near the equal-share line.</li>
                 </ul>
             </li>
             <li><strong>Used percentage-point gaps rather than ratios</strong>: This hides states like New York and New Jersey which have twice their population share of abortions.
